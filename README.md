@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🔗 Linko – All Links in One Place
+A full-stack web application that allows users to save, categorize, and manage their important web links in one centralized place. Built with a Node.js + Express backend and MongoDB database, with a login system to keep each user's links private and organized.
 
-## Getting Started
+🚀 Features
 
-First, run the development server:
+🔑 User login and registration system
+🌐 Save links with Title, URL, Category, and Description
+🗂️ Organize links by category for easy navigation
+🗄️ MongoDB database for persistent storage
+📱 Fully responsive design across desktop and mobile
+🌍 Cross-browser compatible (Chrome & Firefox tested)
+⚡ Clean and intuitive interface for fast navigation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tech Stack
+LayerTechnologyFrontendHTML5, CSS3 (Flexbox, Grid, Media Queries), JavaScriptBackendNode.js, Express.jsDatabaseMongoDBVersion ControlGit, GitHub
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📁 Project Structure
+Linko/
+│
+├── public/
+│   ├── index.html       # Main UI
+│   ├── style.css        # Styling & responsive layout
+│   └── script.js        # Frontend logic
+│
+├── routes/
+│   └── auth.js          # Login/register routes
+│   └── links.js         # Link CRUD routes
+│
+├── models/
+│   └── user.js          # MongoDB user model
+│   └── link.js          # MongoDB link model
+│
+├── server.js            # Express server entry point
+├── package.json
+└── README.md
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚙️ Getting Started
+Prerequisites
+Make sure you have the following installed:
 
-## Learn More
+Node.js
+MongoDB (local or Atlas)
+Git
 
-To learn more about Next.js, take a look at the following resources:
+Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+bash   git clone https://github.com/root2-45/Linko.git
+   cd Linko
 
-## Deploy on Vercel
+Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash   npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Set up MongoDB
+
+Make sure MongoDB is running locally, or use a MongoDB Atlas connection string.
+Update your DB connection string in server.js or a .env file.
+
+
+Run the application
+
+bash   node server.js
+
+Open in browser
+
+   http://localhost:3000
+
+📌 How It Works
+
+Register or log in to your account
+Add a new link by entering:
+
+Title – Name of the link
+URL – The web address
+Category – Group your links (e.g. Work, Study, Entertainment)
+Description – A short note about the link
+
+
+View and manage all your saved links in one place
+Navigate quickly by category
+
+
+🖥️ Screenshots
+
+Add screenshots of your login page and link dashboard here.
+
+
+🔮 Future Improvements
+
+Search and filter links by keyword
+JWT-based authentication
+Deployment on Render or Railway
+Edit and delete individual links
+Import/export bookmarks
+
+
+👩‍💻 Author
+Rutuja Shivaji Shingote
+📧 rutujashingote5@gmail.com
+🌐 GitHub
