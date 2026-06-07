@@ -3437,7 +3437,9 @@ export default function Home() {
     if(saved) {
       const all = JSON.parse(saved);
       
-      const userLinkos = all.filter(linko => {
+     // const userLinkos = all.filter(linko => {//
+        //const userLinkos = all.filter((linko: any) => {
+          const userLinkos = all.filter((linko: any) => {
         if (linko.userEmail) {
           return linko.userEmail === currentUser.email;
         }
@@ -3616,7 +3618,8 @@ export default function Home() {
                 {recentLinks.map((linko, i) => (
                   <Link 
                     key={i} 
-                    href={`/${linko.handle}`}
+                    //href={`/${linko.handle}`}
+                    href={`/${(linko as any).handle}`}
                     className="block group animate-slideUp"
                     style={{ animationDelay: `${i * 100}ms` }}
                   >
