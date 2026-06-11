@@ -9,7 +9,7 @@
 //   const [text, setText] = useState("")
 
 //   const createTree = () => {
-  
+
 //    // router.push(`/generate?handle=${text}`)
 //     router.push(`/generate?handle=${encodeURIComponent(text)}`);
 
@@ -21,7 +21,7 @@
 //       <p className="text-yellow-300 font-bold text-7xl">Everything you</p>
 //       <p className="text-yellow-300 font-bold text-7xl">are. In one,</p>
 //       <p className="text-yellow-300 font-bold text-7xl">simple link in bio.</p>
-//       <p className="text-yellow-300 text-xl my-4">Join 50M+ people using Linktree for their link in bio. 
+//       <p className="text-yellow-300 text-xl my-4">Join 50M+ people using Linktree for their link in bio.
 //         One link to help you share everything you create, curate and sell from your Instagram, Tiktok,
 //          Twitter, Youtube and other social media profiles.</p>
 //         <div className="input flex gap-2">
@@ -30,20 +30,17 @@
 //         </div>
 //       </div>
 //       <div className="flex items-center justify-center flex-col mr-[10vw]">
-        
+
 //         <img src="/home.png" alt="Linko Hero" />
 //       </div>
-      
+
 //     </section>
 //     <section className="bg-red-700 min-h-[100vh]">
 
-      
 //     </section>
 //    </main>
 //   );
 // }
-
-
 
 // "use client"
 // import { useState } from "react";
@@ -142,7 +139,6 @@
 //   );
 // }
 
-
 //   "use client"
 // import { useState } from "react";
 // import { useRouter } from "next/navigation";
@@ -158,8 +154,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative h-screen overflow-hidden" 
+//       <section
+//         className="relative h-screen overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* RED GLOW - TOUCHING NAVBAR */}
@@ -169,13 +165,13 @@
 //         {/* Background Image - TOUCHING TOP AND BOTTOM */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* GRADIENT FADE */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -187,7 +183,7 @@
 //           <div className="flex flex-col justify-center h-full pt-20">
 //             {/* ^^^ pt-20 pushes content down from navbar */}
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -225,7 +221,7 @@
 //       {/* Second Section */}
 //       <section className="py-20" style={{background: '#0A0A0F'}}>
 //         <div className="max-w-4xl mx-auto px-4">
-          
+
 //           {/* Templates & Sign up Free */}
 //           <div className="grid grid-cols-5 gap-4 text-center mb-12 text-[#CCCCCC] text-sm">
 //             <span className="hover:text-[#FF3366] cursor-pointer">Templates</span>
@@ -276,7 +272,6 @@
 //   );
 // }
 
-
 // "use client"
 // import { useState, useEffect } from "react";
 // import { useRouter } from "next/navigation";
@@ -302,8 +297,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -313,13 +308,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -330,7 +325,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl ml-20"> {/* Added ml-20 here */}
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -381,7 +376,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -397,7 +392,7 @@
 //       {/* Second Section */}
 //       <section className="py-20" style={{background: '#0A0A0F'}}>
 //         <div className="max-w-4xl mx-auto px-4">
-          
+
 //           {/* Sign up Free */}
 //           <div className="text-right mb-12">
 //             <span className="text-[#33CCFF] cursor-pointer hover:underline text-sm relative group">
@@ -434,7 +429,7 @@
 //               Your links, all in one place with <span className="text-[#FF3366] font-bold relative group inline-block">
 //                 Linko
 //                 <span className="absolute -inset-1 bg-[#FF3366]/20 blur-md group-hover:bg-[#FF3366]/30 rounded-lg transition"></span>
-//               </span> 
+//               </span>
 //               <span className="inline-flex items-center gap-2 ml-2">
 //                 <span className="w-1 h-1 bg-[#33CCFF] rounded-full"></span>
 //                 <span className="text-[#1DB954] font-semibold">Spotify</span>
@@ -458,8 +453,6 @@
 //     </main>
 //   );
 // }
-
-
 
 // "use client"
 // import { useState, useEffect } from "react";
@@ -486,8 +479,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -497,13 +490,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -514,7 +507,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -564,7 +557,7 @@
 //       {/* Second Section - WITH RECENT LINKOS */}
 //       <section className="py-20" style={{background: '#0A0A0F'}}>
 //         <div className="max-w-4xl mx-auto px-4">
-          
+
 //           {/* WELCOME TO LINKO - EXACTLY LIKE YOUR SCREENSHOT */}
 //           <div className="text-center mb-16">
 //             <div className="text-[#33CCFF] text-7xl font-light tracking-wider leading-none">
@@ -580,12 +573,12 @@
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
 //             <h2 className="text-2xl font-bold text-white mb-6 text-center">Your Recent Linkos</h2>
-            
+
 //             {recentTrees.length === 0 ? (
 //               <div className="text-center text-[#CCCCCC] py-8">
 //                 <p>You haven't created any Linkos yet</p>
-//                 <Link 
-//                   href="/generate" 
+//                 <Link
+//                   href="/generate"
 //                   className="inline-block mt-4 text-[#FF3366] hover:underline"
 //                 >
 //                   Create your first Linko →
@@ -594,8 +587,8 @@
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentTrees.map((tree, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${tree.handle}`}
 //                     className="block group"
 //                   >
@@ -614,9 +607,9 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
-//                 <Link 
-//                   href="/dashboard" 
+
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center text-[#33CCFF] mt-6 hover:text-[#FF3366] transition"
 //                 >
 //                   See all your Linkos →
@@ -676,8 +669,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -687,13 +680,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -704,7 +697,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -755,7 +748,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -771,18 +764,18 @@
 //       {/* Second Section - WITH RECENT LINKOS */}
 //       <section className="py-20" style={{background: '#0A0A0F'}}>
 //         <div className="max-w-4xl mx-auto px-4">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
 //             <h2 className="text-2xl font-bold text-white mb-6 text-center">Your Recent Linkos</h2>
-            
+
 //             {recentTrees.length === 0 ? (
 //               <div className="text-center text-[#CCCCCC] py-8">
 //                 <p>You haven't created any Linkos yet</p>
-//                 <Link 
-//                   href="/generate" 
+//                 <Link
+//                   href="/generate"
 //                   className="inline-block mt-4 text-[#FF3366] hover:underline"
 //                 >
 //                   Create your first Linko →
@@ -791,8 +784,8 @@
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentTrees.map((tree, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${tree.handle}`}
 //                     className="block group"
 //                   >
@@ -811,9 +804,9 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
-//                 <Link 
-//                   href="/dashboard" 
+
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center text-[#33CCFF] mt-6 hover:text-[#FF3366] transition"
 //                 >
 //                   See all your Linkos →
@@ -847,8 +840,6 @@
 //     </main>
 //   );
 // }
-
-
 
 // "use client"
 // import { useState, useEffect } from "react";
@@ -875,8 +866,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section - KEPT EXACTLY THE SAME */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -886,13 +877,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -903,7 +894,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -954,7 +945,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -972,9 +963,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title with icon */}
@@ -991,7 +982,7 @@
 
 //           {/* RECENT LINKOS SECTION - CARD DESIGN */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentTrees.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -1000,8 +991,8 @@
 //                   </svg>
 //                 </div>
 //                 <p className="text-[#CCCCCC] text-lg mb-6">You haven't created any Linkos yet</p>
-//                 <Link 
-//                   href="/generate" 
+//                 <Link
+//                   href="/generate"
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
 //                   Create your first Linko →
@@ -1010,15 +1001,15 @@
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentTrees.map((tree, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${tree.handle}`}
 //                     className="block group"
 //                   >
 //                     <div className="bg-white/5 backdrop-blur-xl p-6 rounded-2xl border border-[#333333] hover:border-[#FF3366] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#FF3366]/20 relative overflow-hidden">
 //                       {/* Animated background gradient on hover */}
 //                       <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/0 via-[#FF3366]/0 to-[#9933FF]/0 group-hover:from-[#FF3366]/10 group-hover:via-[#9933FF]/10 group-hover:to-[#FF3366]/0 transition-all duration-500"></div>
-                      
+
 //                       <div className="flex justify-between items-center relative z-10">
 //                         <div className="flex items-center gap-4">
 //                           {/* Profile icon with gradient */}
@@ -1054,14 +1045,14 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
+
 //                 {/* See all button with animation */}
-//                 <Link 
-//                   href="/dashboard" 
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                     <span className="w-8 h-8 rounded-full bg-[#33CCFF]/20 flex items-center justify-center group-hover:bg-[#FF3366]/20 transition-colors">
 //                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1078,7 +1069,7 @@
 //           <div className="text-center mt-16">
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -1123,7 +1114,6 @@
 //   );
 // }
 
-
 // "use client"
 // import { useState, useEffect } from "react";
 // import { useRouter } from "next/navigation";
@@ -1149,8 +1139,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -1160,13 +1150,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -1177,7 +1167,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -1228,7 +1218,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -1246,9 +1236,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title */}
@@ -1264,7 +1254,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (  // Changed from recentTrees
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -1273,8 +1263,8 @@
 //                   </svg>
 //                 </div>
 //                 <p className="text-[#CCCCCC] text-lg mb-6">You haven't created any Linkos yet</p>
-//                 <Link 
-//                   href="/generate" 
+//                 <Link
+//                   href="/generate"
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
 //                   Create your first Linko →
@@ -1283,15 +1273,15 @@
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (  // Changed from tree to linko
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group"
 //                   >
 //                     <div className="bg-white/5 backdrop-blur-xl p-6 rounded-2xl border border-[#333333] hover:border-[#FF3366] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#FF3366]/20 relative overflow-hidden">
 //                       {/* Animated background gradient on hover */}
 //                       <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/0 via-[#FF3366]/0 to-[#9933FF]/0 group-hover:from-[#FF3366]/10 group-hover:via-[#9933FF]/10 group-hover:to-[#FF3366]/0 transition-all duration-500"></div>
-                      
+
 //                       <div className="flex justify-between items-center relative z-10">
 //                         <div className="flex items-center gap-4">
 //                           {/* Profile icon with gradient */}
@@ -1327,14 +1317,14 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
+
 //                 {/* See all button */}
-//                 <Link 
-//                   href="/dashboard" 
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                     <span className="w-8 h-8 rounded-full bg-[#33CCFF]/20 flex items-center justify-center group-hover:bg-[#FF3366]/20 transition-colors">
 //                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1351,7 +1341,7 @@
 //           <div className="text-center mt-16">
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -1410,7 +1400,7 @@
 //   useEffect(() => {
 //     // Get current logged-in user
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved && currentUser) {
 //       const all = JSON.parse(saved);
@@ -1429,8 +1419,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -1440,13 +1430,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -1457,7 +1447,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -1508,7 +1498,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -1526,9 +1516,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title */}
@@ -1544,7 +1534,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -1553,8 +1543,8 @@
 //                   </svg>
 //                 </div>
 //                 <p className="text-[#CCCCCC] text-lg mb-6">You haven't created any Linkos yet</p>
-//                 <Link 
-//                   href="/generate" 
+//                 <Link
+//                   href="/generate"
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
 //                   Create your first Linko →
@@ -1563,15 +1553,15 @@
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group"
 //                   >
 //                     <div className="bg-white/5 backdrop-blur-xl p-6 rounded-2xl border border-[#333333] hover:border-[#FF3366] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#FF3366]/20 relative overflow-hidden">
 //                       {/* Animated background gradient on hover */}
 //                       <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/0 via-[#FF3366]/0 to-[#9933FF]/0 group-hover:from-[#FF3366]/10 group-hover:via-[#9933FF]/10 group-hover:to-[#FF3366]/0 transition-all duration-500"></div>
-                      
+
 //                       <div className="flex justify-between items-center relative z-10">
 //                         <div className="flex items-center gap-4">
 //                           {/* Profile icon with gradient */}
@@ -1607,14 +1597,14 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
+
 //                 {/* See all button */}
-//                 <Link 
-//                   href="/dashboard" 
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                     <span className="w-8 h-8 rounded-full bg-[#33CCFF]/20 flex items-center justify-center group-hover:bg-[#FF3366]/20 transition-colors">
 //                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1631,7 +1621,7 @@
 //           <div className="text-center mt-16">
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -1690,17 +1680,17 @@
 //   useEffect(() => {
 //     // Get current logged-in user
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     // FIX: If user is logged out, clear recent links
 //     if (!currentUser) {
 //       setRecentLinks([]);
 //       return;
 //     }
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved) {
 //       const all = JSON.parse(saved);
-      
+
 //       // FIX: Handle old Linkos that don't have userEmail
 //       // If a Linko doesn't have userEmail, assume it belongs to current user
 //       // This is a temporary fix for your existing data
@@ -1713,7 +1703,7 @@
 //         // This will be fixed when you edit/save the linko
 //         return true; // Shows all old linkos to current user
 //       });
-      
+
 //       setRecentLinks(userLinkos.slice(-5).reverse());
 //     } else {
 //       setRecentLinks([]);
@@ -1727,8 +1717,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -1738,13 +1728,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           {/* Gradient fade */}
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
@@ -1755,7 +1745,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -1806,7 +1796,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 {/* Animated dots */}
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
@@ -1824,9 +1814,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title */}
@@ -1842,7 +1832,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -1855,27 +1845,27 @@
 //     ? "You haven't created any Linkos yet"
 //     : "Please log in to see your Linkos"}
 // </p>
-//                 <Link 
-//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+//                 <Link
+//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"}
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
-//                   {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-//                     ? "Create your first Linko →" 
+//                   {JSON.parse(localStorage.getItem('currentUser') || 'null')
+//                     ? "Create your first Linko →"
 //                     : "Log in →"}
 //                 </Link>
 //               </div>
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group"
 //                   >
 //                     <div className="bg-white/5 backdrop-blur-xl p-6 rounded-2xl border border-[#333333] hover:border-[#FF3366] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#FF3366]/20 relative overflow-hidden">
 //                       {/* Animated background gradient on hover */}
 //                       <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/0 via-[#FF3366]/0 to-[#9933FF]/0 group-hover:from-[#FF3366]/10 group-hover:via-[#9933FF]/10 group-hover:to-[#FF3366]/0 transition-all duration-500"></div>
-                      
+
 //                       <div className="flex justify-between items-center relative z-10">
 //                         <div className="flex items-center gap-4">
 //                           {/* Profile icon with gradient */}
@@ -1911,14 +1901,14 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
+
 //                 {/* See all button */}
-//                 <Link 
-//                   href="/dashboard" 
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                     <span className="w-8 h-8 rounded-full bg-[#33CCFF]/20 flex items-center justify-center group-hover:bg-[#FF3366]/20 transition-colors">
 //                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1935,7 +1925,7 @@
 //           <div className="text-center mt-16">
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -2004,23 +1994,23 @@
 
 //   useEffect(() => {
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     if (!currentUser) {
 //       setRecentLinks([]);
 //       return;
 //     }
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved) {
 //       const all = JSON.parse(saved);
-      
+
 //       const userLinkos = all.filter(linko => {
 //         if (linko.userEmail) {
 //           return linko.userEmail === currentUser.email;
 //         }
 //         return true;
 //       });
-      
+
 //       setRecentLinks(userLinkos.slice(-5).reverse());
 //     } else {
 //       setRecentLinks([]);
@@ -2034,8 +2024,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -2045,13 +2035,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
 //           }}></div>
@@ -2061,7 +2051,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* Headline */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Everything you are.
@@ -2112,7 +2102,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
 //                   <div className="w-2 h-2 bg-[#9933FF] rounded-full animate-pulse delay-150"></div>
@@ -2129,9 +2119,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title */}
@@ -2147,7 +2137,7 @@
 
 //           {/* RECENT LINKOS SECTION - WITH PROFILE PICTURES! */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -2160,20 +2150,20 @@
 //                     ? "You haven't created any Linkos yet"
 //                     : "Please log in to see your Linkos"}
 //                 </p>
-//                 <Link 
-//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+//                 <Link
+//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"}
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
-//                   {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-//                     ? "Create your first Linko →" 
+//                   {JSON.parse(localStorage.getItem('currentUser') || 'null')
+//                     ? "Create your first Linko →"
 //                     : "Log in →"}
 //                 </Link>
 //               </div>
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group"
 //                   >
@@ -2182,8 +2172,8 @@
 //                         {/* PROFILE PICTURE OR COLORFUL AVATAR */}
 //                         {linko.pic ? (
 //                           // If profile picture exists
-//                           <img 
-//                             src={linko.pic} 
+//                           <img
+//                             src={linko.pic}
 //                             alt={linko.handle}
 //                             className="w-10 h-10 rounded-xl object-cover border-2 border-[#FF3366] group-hover:scale-110 transition-transform duration-300"
 //                             onError={(e) => {
@@ -2204,7 +2194,7 @@
 //                             </span>
 //                           </div>
 //                         )}
-                        
+
 //                         <div className="flex-1">
 //                           <div className="flex items-center gap-2">
 //                             <span className="text-white font-semibold group-hover:text-[#FF3366] transition-colors">
@@ -2224,7 +2214,7 @@
 //                             <span>{new Date(linko.date).toLocaleDateString()}</span>
 //                           </div>
 //                         </div>
-                        
+
 //                         {/* Arrow icon */}
 //                         <span className="text-[#FF3366] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-2">
 //                           →
@@ -2233,14 +2223,14 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
+
 //                 {/* See all button */}
-//                 <Link 
-//                   href="/dashboard" 
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                     <span className="w-8 h-8 rounded-full bg-[#33CCFF]/20 flex items-center justify-center group-hover:bg-[#FF3366]/20 transition-colors">
 //                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -2257,7 +2247,7 @@
 //           <div className="text-center mt-16">
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -2326,23 +2316,23 @@
 
 //   useEffect(() => {
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     if (!currentUser) {
 //       setRecentLinks([]);
 //       return;
 //     }
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved) {
 //       const all = JSON.parse(saved);
-      
+
 //       const userLinkos = all.filter(linko => {
 //         if (linko.userEmail) {
 //           return linko.userEmail === currentUser.email;
 //         }
 //         return true;
 //       });
-      
+
 //       setRecentLinks(userLinkos.slice(-5).reverse());
 //     } else {
 //       setRecentLinks([]);
@@ -2356,8 +2346,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -2367,13 +2357,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
 //           }}></div>
@@ -2383,7 +2373,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* MAIN HEADLINE - Your chosen quote */}
 //               <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
 //                 Stop sharing multiple links.
@@ -2432,7 +2422,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-pulse"></div>
 //                   <div className="w-2 h-2 bg-[#9933FF] rounded-full animate-pulse delay-150"></div>
@@ -2449,9 +2439,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12" />
 
 //           {/* Section Title */}
@@ -2471,7 +2461,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 group">
 //                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -2484,32 +2474,32 @@
 //                     ? "You haven't created any Linkos yet"
 //                     : "Please log in to see your Linkos"}
 //                 </p>
-//                 <Link 
-//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+//                 <Link
+//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"}
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300"
 //                 >
-//                   {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-//                     ? "Create your first Linko →" 
+//                   {JSON.parse(localStorage.getItem('currentUser') || 'null')
+//                     ? "Create your first Linko →"
 //                     : "Log in →"}
 //                 </Link>
 //               </div>
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group"
 //                   >
 //                     <div className="bg-white/5 backdrop-blur-xl p-4 rounded-xl border border-[#333333] hover:border-[#FF3366] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-[#FF3366]/20">
 //                       <div className="flex items-center gap-3">
 //                         {/* Profile picture */}
-//                         <img 
-//                           src={linko.pic} 
+//                         <img
+//                           src={linko.pic}
 //                           alt={linko.handle}
 //                           className="w-10 h-10 rounded-xl object-cover border-2 border-[#FF3366] group-hover:scale-110 transition-transform duration-300"
 //                         />
-                        
+
 //                         <div className="flex-1">
 //                           <span className="text-white font-semibold group-hover:text-[#FF3366] transition-colors">
 //                             @{linko.handle}
@@ -2522,7 +2512,7 @@
 //                             <span>{new Date(linko.date).toLocaleDateString()}</span>
 //                           </div>
 //                         </div>
-                        
+
 //                         <span className="text-[#FF3366] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-2">
 //                           →
 //                         </span>
@@ -2530,13 +2520,13 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
-//                 <Link 
-//                   href="/dashboard" 
+
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                   </span>
 //                 </Link>
@@ -2550,7 +2540,7 @@
 //             <p className="text-[#FF3366] text-lg italic">
 //               "Your life isn't multiple tabs. Why should your link be?"
 //             </p>
-            
+
 //             {/* Fifth quote */}
 //             <p className="text-[#33CCFF] text-sm">
 //               ✨ Your bio deserves better than a mess.
@@ -2558,7 +2548,7 @@
 
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300 mt-4">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -2629,23 +2619,23 @@
 
 //   useEffect(() => {
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     if (!currentUser) {
 //       setRecentLinks([]);
 //       return;
 //     }
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved) {
 //       const all = JSON.parse(saved);
-      
+
 //       const userLinkos = all.filter(linko => {
 //         if (linko.userEmail) {
 //           return linko.userEmail === currentUser.email;
 //         }
 //         return true;
 //       });
-      
+
 //       setRecentLinks(userLinkos.slice(-5).reverse());
 //     } else {
 //       setRecentLinks([]);
@@ -2659,8 +2649,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -2670,13 +2660,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
 //           }}></div>
@@ -2686,7 +2676,7 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* MAIN HEADLINE WITH TYPING ANIMATION */}
 //               <div className="overflow-hidden">
 //                 <h1 className="text-5xl md:text-7xl font-bold leading-tight">
@@ -2741,7 +2731,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent animate-pulse">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-bounce"></div>
 //                   <div className="w-2 h-2 bg-[#9933FF] rounded-full animate-bounce animation-delay-150"></div>
@@ -2758,9 +2748,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12 animate-slideIn" />
 
 //           {/* Section Title */}
@@ -2779,7 +2769,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 hover:scale-105 group animate-float">
 //                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 animate-spin-slow">
@@ -2792,20 +2782,20 @@
 //                     ? "You haven't created any Linkos yet"
 //                     : "Please log in to see your Linkos"}
 //                 </p>
-//                 <Link 
-//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+//                 <Link
+//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"}
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300 animate-pulse hover:animate-none"
 //                 >
-//                   {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-//                     ? "Create your first Linko →" 
+//                   {JSON.parse(localStorage.getItem('currentUser') || 'null')
+//                     ? "Create your first Linko →"
 //                     : "Log in →"}
 //                 </Link>
 //               </div>
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group animate-slideUp"
 //                     style={{ animationDelay: `${i * 100}ms` }}
@@ -2814,14 +2804,14 @@
 //                       <div className="flex items-center gap-3">
 //                         {/* Profile picture with pulse animation */}
 //                         <div className="relative">
-//                           <img 
-//                             src={linko.pic} 
+//                           <img
+//                             src={linko.pic}
 //                             alt={linko.handle}
 //                             className="w-10 h-10 rounded-xl object-cover border-2 border-[#FF3366] group-hover:scale-110 transition-transform duration-300"
 //                           />
 //                           <div className="absolute -inset-1 border-2 border-[#FF3366] rounded-xl opacity-0 group-hover:opacity-100 animate-ping"></div>
 //                         </div>
-                        
+
 //                         <div className="flex-1">
 //                           <span className="text-white font-semibold group-hover:text-[#FF3366] transition-colors">
 //                             @{linko.handle}
@@ -2834,7 +2824,7 @@
 //                             <span>{new Date(linko.date).toLocaleDateString()}</span>
 //                           </div>
 //                         </div>
-                        
+
 //                         <span className="text-[#FF3366] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-2">
 //                           →
 //                         </span>
@@ -2842,13 +2832,13 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
-//                 <Link 
-//                   href="/dashboard" 
+
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group animate-bounce"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                   </span>
 //                 </Link>
@@ -2864,14 +2854,14 @@
 //                 "Your life isn't multiple tabs. Why should your link be?"
 //               </p>
 //             </div>
-            
+
 //             <p className="text-[#33CCFF] text-sm animate-bounce">
 //               ✨ Your bio deserves better than a mess.
 //             </p>
 
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300 mt-4 hover:scale-105">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -2971,8 +2961,6 @@
 //     </main>
 //   );
 // }
-
-
 
 // "use client"
 // import { useState, useEffect } from "react";
@@ -3016,23 +3004,23 @@
 
 //   useEffect(() => {
 //     const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+
 //     if (!currentUser) {
 //       setRecentLinks([]);
 //       return;
 //     }
-    
+
 //     const saved = localStorage.getItem('myLinkos');
 //     if(saved) {
 //       const all = JSON.parse(saved);
-      
+
 //       const userLinkos = all.filter(linko => {
 //         if (linko.userEmail) {
 //           return linko.userEmail === currentUser.email;
 //         }
 //         return true;
 //       });
-      
+
 //       setRecentLinks(userLinkos.slice(-5).reverse());
 //     } else {
 //       setRecentLinks([]);
@@ -3046,8 +3034,8 @@
 //   return (
 //     <main>
 //       {/* Hero Section */}
-//       <section 
-//         className="relative min-h-screen pt-32 overflow-hidden" 
+//       <section
+//         className="relative min-h-screen pt-32 overflow-hidden"
 //         style={{background: '#0A0A0F'}}
 //       >
 //         {/* Glow effects */}
@@ -3057,13 +3045,13 @@
 //         {/* Background Image */}
 //         <div className="absolute inset-0">
 //           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-//             <img 
-//               src="/linko-hero.png" 
-//               alt="Background" 
+//             <img
+//               src="/linko-hero.png"
+//               alt="Background"
 //               className="w-full h-full object-cover object-right"
 //             />
 //           </div>
-          
+
 //           <div className="absolute inset-0" style={{
 //             background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
 //           }}></div>
@@ -3073,15 +3061,15 @@
 //         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
 //           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
 //             <div className="max-w-2xl">
-              
+
 //               {/* MAIN HEADLINE WITH HOVER ANIMATIONS */}
-//               <div 
+//               <div
 //                 className="overflow-hidden"
 //                 onMouseEnter={() => setIsHovering(true)}
 //                 onMouseLeave={() => setIsHovering(false)}
 //               >
 //                 <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-//                   <span 
+//                   <span
 //                     className={`inline-block transition-all duration-500 text-white ${
 //                       isHovering ? 'transform -translate-y-2 scale-105' : ''
 //                     }`}
@@ -3089,7 +3077,7 @@
 //                     Stop sharing multiple links.
 //                   </span>
 //                   <br />
-//                   <span 
+//                   <span
 //                     className={`inline-block transition-all duration-500 delay-100 bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent ${
 //                       isHovering ? 'transform translate-y-2 scale-105 animate-pulse' : ''
 //                     }`}
@@ -3097,9 +3085,9 @@
 //                     Start sharing you.
 //                   </span>
 //                 </h1>
-                
+
 //                 {/* Animated underline that appears on hover */}
-//                 <div 
+//                 <div
 //                   className={`h-1 bg-gradient-to-r from-[#FF3366] to-[#9933FF] rounded-full transition-all duration-500 ${
 //                     isHovering ? 'w-full' : 'w-0'
 //                   }`}
@@ -3108,8 +3096,8 @@
 
 //               {/* ROTATING QUOTES WITH FADE ANIMATION */}
 //               <div className="h-16 mt-4">
-//                 <p 
-//                   key={quoteIndex} 
+//                 <p
+//                   key={quoteIndex}
 //                   className={`text-[#33CCFF] text-xl italic transition-all duration-500 animate-fadeIn ${
 //                     isHovering ? 'scale-105 text-[#FF3366]' : ''
 //                   }`}
@@ -3152,7 +3140,7 @@
 //                   <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent animate-pulse">LINKO</span>
 //                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
 //                 </div>
-                
+
 //                 <div className="flex justify-center gap-2 mt-4">
 //                   <div className="w-2 h-2 bg-[#FF3366] rounded-full animate-bounce"></div>
 //                   <div className="w-2 h-2 bg-[#9933FF] rounded-full animate-bounce animation-delay-150"></div>
@@ -3169,9 +3157,9 @@
 //         {/* Background glow effects */}
 //         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
 //         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
 //         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
+
 //           <hr className="border-[#333333] mb-12 animate-slideIn" />
 
 //           {/* Section Title */}
@@ -3190,7 +3178,7 @@
 
 //           {/* RECENT LINKOS SECTION */}
 //           <div className="max-w-md mx-auto">
-            
+
 //             {recentLinks.length === 0 ? (
 //               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 hover:scale-105 group animate-float">
 //                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 animate-spin-slow">
@@ -3203,20 +3191,20 @@
 //                     ? "You haven't created any Linkos yet"
 //                     : "Please log in to see your Linkos"}
 //                 </p>
-//                 <Link 
-//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+//                 <Link
+//                   href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"}
 //                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300 animate-pulse hover:animate-none"
 //                 >
-//                   {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-//                     ? "Create your first Linko →" 
+//                   {JSON.parse(localStorage.getItem('currentUser') || 'null')
+//                     ? "Create your first Linko →"
 //                     : "Log in →"}
 //                 </Link>
 //               </div>
 //             ) : (
 //               <div className="space-y-4">
 //                 {recentLinks.map((linko, i) => (
-//                   <Link 
-//                     key={i} 
+//                   <Link
+//                     key={i}
 //                     href={`/${linko.handle}`}
 //                     className="block group animate-slideUp"
 //                     style={{ animationDelay: `${i * 100}ms` }}
@@ -3225,14 +3213,14 @@
 //                       <div className="flex items-center gap-3">
 //                         {/* Profile picture with pulse animation */}
 //                         <div className="relative">
-//                           <img 
-//                             src={linko.pic} 
+//                           <img
+//                             src={linko.pic}
 //                             alt={linko.handle}
 //                             className="w-10 h-10 rounded-xl object-cover border-2 border-[#FF3366] group-hover:scale-110 transition-transform duration-300"
 //                           />
 //                           <div className="absolute -inset-1 border-2 border-[#FF3366] rounded-xl opacity-0 group-hover:opacity-100 animate-ping"></div>
 //                         </div>
-                        
+
 //                         <div className="flex-1">
 //                           <span className="text-white font-semibold group-hover:text-[#FF3366] transition-colors">
 //                             @{linko.handle}
@@ -3245,7 +3233,7 @@
 //                             <span>{new Date(linko.date).toLocaleDateString()}</span>
 //                           </div>
 //                         </div>
-                        
+
 //                         <span className="text-[#FF3366] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-2">
 //                           →
 //                         </span>
@@ -3253,13 +3241,13 @@
 //                     </div>
 //                   </Link>
 //                 ))}
-                
-//                 <Link 
-//                   href="/dashboard" 
+
+//                 <Link
+//                   href="/dashboard"
 //                   className="block text-center mt-8 group animate-bounce"
 //                 >
 //                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-//                     See all your Linkos 
+//                     See all your Linkos
 //                     <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
 //                   </span>
 //                 </Link>
@@ -3275,14 +3263,14 @@
 //                 "Your life isn't multiple tabs. Why should your link be?"
 //               </p>
 //             </div>
-            
+
 //             <p className="text-[#33CCFF] text-sm animate-bounce">
 //               ✨ Your bio deserves better than a mess.
 //             </p>
 
 //             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300 mt-4 hover:scale-105">
 //               <p className="text-[#CCCCCC] text-lg">
-//                 Your links, all in one place with 
+//                 Your links, all in one place with
 //               </p>
 //               <span className="text-[#FF3366] font-bold text-xl relative group">
 //                 Linko
@@ -3383,18 +3371,15 @@
 //   );
 // }
 
-
-export const dynamic = 'force-dynamic'
-
-
-"use client"
+"use client";
+export const dynamic = "force-dynamic";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter()
-  const [text, setText] = useState("")
+  const router = useRouter();
+  const [text, setText] = useState("");
   const [recentLinks, setRecentLinks] = useState([]);
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
@@ -3428,26 +3413,28 @@ export default function Home() {
   ];
 
   useEffect(() => {
-    const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
-    
+    const currentUser = JSON.parse(
+      localStorage.getItem("currentUser") || "null",
+    );
+
     if (!currentUser) {
       setRecentLinks([]);
       return;
     }
-    
-    const saved = localStorage.getItem('myLinkos');
-    if(saved) {
+
+    const saved = localStorage.getItem("myLinkos");
+    if (saved) {
       const all = JSON.parse(saved);
-      
-     // const userLinkos = all.filter(linko => {//
-        //const userLinkos = all.filter((linko: any) => {
-          const userLinkos = all.filter((linko: any) => {
+
+      // const userLinkos = all.filter(linko => {//
+      //const userLinkos = all.filter((linko: any) => {
+      const userLinkos = all.filter((linko: any) => {
         if (linko.userEmail) {
           return linko.userEmail === currentUser.email;
         }
         return true;
       });
-      
+
       setRecentLinks(userLinkos.slice(-5).reverse());
     } else {
       setRecentLinks([]);
@@ -3456,14 +3443,14 @@ export default function Home() {
 
   const createLinko = () => {
     router.push(`/generate?handle=${encodeURIComponent(text)}`);
-  }
+  };
 
   return (
     <main>
       {/* Hero Section */}
-      <section 
-        className="relative min-h-screen pt-32 overflow-hidden" 
-        style={{background: '#0A0A0F'}}
+      <section
+        className="relative min-h-screen pt-32 overflow-hidden"
+        style={{ background: "#0A0A0F" }}
       >
         {/* Glow effects */}
         <div className="absolute w-[1000px] h-[1000px] bg-[#FF3366]/30 blur-3xl rounded-full top-[-100px] right-[-300px] animate-pulse" />
@@ -3472,25 +3459,28 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <div className="absolute right-0 top-[-50px] bottom-0 w-[1000px]">
-            <img 
-              src="/linko-hero.png" 
-              alt="Background" 
+            <img
+              src="/linko-hero.png"
+              alt="Background"
               className="w-full h-full object-cover object-right"
             />
           </div>
-          
-          <div className="absolute inset-0" style={{
-            background: 'linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)'
-          }}></div>
+
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(90deg, #0A0A0F 0%, #0A0A0F 30%, rgba(10,10,15,0.6) 60%, transparent 100%)",
+            }}
+          ></div>
         </div>
 
         {/* Content */}
         <div className="relative z-20 max-w-7xl mx-auto px-4 h-full">
           <div className="flex flex-col justify-center min-h-[calc(100vh-120px)]">
             <div className="max-w-2xl">
-              
               {/* MAIN HEADLINE - FIXED ANIMATION (no more half letters) */}
-              <div 
+              <div
                 className="cursor-default"
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
@@ -3500,27 +3490,27 @@ export default function Home() {
                     Stop sharing multiple links.
                   </span>
                   <br />
-                  <span 
+                  <span
                     className={`bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent transition-all duration-300 ${
-                      isHovering ? 'tracking-wider' : ''
+                      isHovering ? "tracking-wider" : ""
                     }`}
                   >
                     Start sharing you.
                   </span>
                 </h1>
-                
+
                 {/* Simple underline that appears on hover */}
-                <div 
+                <div
                   className={`h-0.5 bg-gradient-to-r from-[#FF3366] to-[#9933FF] rounded-full transition-all duration-300 ${
-                    isHovering ? 'w-full opacity-100' : 'w-0 opacity-0'
+                    isHovering ? "w-full opacity-100" : "w-0 opacity-0"
                   }`}
                 ></div>
               </div>
 
               {/* ROTATING QUOTES WITH FADE ANIMATION */}
               <div className="h-16 mt-4">
-                <p 
-                  key={quoteIndex} 
+                <p
+                  key={quoteIndex}
                   className="text-[#33CCFF] text-xl italic animate-fadeIn"
                 >
                   "{rotatingQuotes[quoteIndex]}"
@@ -3529,7 +3519,8 @@ export default function Home() {
 
               {/* Description */}
               <p className="text-[#CCCCCC] text-lg max-w-xl mt-6">
-                Join 50M+ creators using Linko to share their world with one beautiful link.
+                Join 50M+ creators using Linko to share their world with one
+                beautiful link.
               </p>
 
               {/* Input Section */}
@@ -3545,8 +3536,8 @@ export default function Home() {
                   onClick={createLinko}
                   className="px-6 py-3 text-white font-semibold rounded-lg hover:scale-110 transition-all duration-300 whitespace-nowrap"
                   style={{
-                    background: 'linear-gradient(135deg, #FF3366, #9933FF)',
-                    boxShadow: '0 10px 20px rgba(255,51,102,0.3)'
+                    background: "linear-gradient(135deg, #FF3366, #9933FF)",
+                    boxShadow: "0 10px 20px rgba(255,51,102,0.3)",
                   }}
                 >
                   Claim your Linko
@@ -3557,8 +3548,12 @@ export default function Home() {
               <div className="mt-16">
                 <div className="flex items-center gap-4">
                   <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#33CCFF]"></div>
-                  <span className="text-[#33CCFF] text-sm font-semibold tracking-[0.3em]">WELCOME TO</span>
-                  <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">LINKO</span>
+                  <span className="text-[#33CCFF] text-sm font-semibold tracking-[0.3em]">
+                    WELCOME TO
+                  </span>
+                  <span className="text-2xl font-black bg-gradient-to-r from-[#FF3366] to-[#9933FF] bg-clip-text text-transparent">
+                    LINKO
+                  </span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#33CCFF]"></div>
                 </div>
               </div>
@@ -3568,13 +3563,15 @@ export default function Home() {
       </section>
 
       {/* Second Section - COMPLETELY UNCHANGED */}
-      <section className="py-20 relative overflow-hidden" style={{background: '#0A0A0F'}}>
+      <section
+        className="py-20 relative overflow-hidden"
+        style={{ background: "#0A0A0F" }}
+      >
         {/* Background glow effects */}
         <div className="absolute w-[600px] h-[600px] bg-[#FF3366]/20 blur-3xl rounded-full top-0 right-0 animate-pulse" />
         <div className="absolute w-[600px] h-[600px] bg-[#9933FF]/20 blur-3xl rounded-full bottom-0 left-0 animate-pulse delay-700" />
-        
+
         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          
           <hr className="border-[#333333] mb-12 animate-slideIn" />
 
           {/* Section Title */}
@@ -3593,33 +3590,47 @@ export default function Home() {
 
           {/* RECENT LINKOS SECTION */}
           <div className="max-w-md mx-auto">
-            
             {recentLinks.length === 0 ? (
               <div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-[#333333] text-center hover:border-[#FF3366] transition-all duration-500 hover:scale-105 group animate-float">
                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-[#FF3366]/20 to-[#9933FF]/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 animate-spin-slow">
-                  <svg className="w-10 h-10 text-[#FF3366]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                  <svg
+                    className="w-10 h-10 text-[#FF3366]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                    ></path>
                   </svg>
                 </div>
                 <p className="text-[#CCCCCC] text-lg mb-6">
-                  {typeof window !== 'undefined' && JSON.parse(localStorage?.getItem('currentUser') || 'null')
+                  {typeof window !== "undefined" &&
+                  JSON.parse(localStorage?.getItem("currentUser") || "null")
                     ? "You haven't created any Linkos yet"
                     : "Please log in to see your Linkos"}
                 </p>
-                <Link 
-                  href={JSON.parse(localStorage.getItem('currentUser') || 'null') ? "/generate" : "/login"} 
+                <Link
+                  href={
+                    JSON.parse(localStorage.getItem("currentUser") || "null")
+                      ? "/generate"
+                      : "/login"
+                  }
                   className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#FF3366]/30 hover:scale-105 transition-all duration-300 animate-pulse hover:animate-none"
                 >
-                  {JSON.parse(localStorage.getItem('currentUser') || 'null') 
-                    ? "Create your first Linko →" 
+                  {JSON.parse(localStorage.getItem("currentUser") || "null")
+                    ? "Create your first Linko →"
                     : "Log in →"}
                 </Link>
               </div>
             ) : (
               <div className="space-y-4">
                 {recentLinks.map((linko, i) => (
-                  <Link 
-                    key={i} 
+                  <Link
+                    key={i}
                     //href={`/${linko.handle}`}
                     href={`/${(linko as any).handle}`}
                     className="block group animate-slideUp"
@@ -3629,14 +3640,14 @@ export default function Home() {
                       <div className="flex items-center gap-3">
                         {/* Profile picture with pulse animation */}
                         <div className="relative">
-                          <img 
-                            src={linko.pic} 
+                          <img
+                            src={linko.pic}
                             alt={linko.handle}
                             className="w-10 h-10 rounded-xl object-cover border-2 border-[#FF3366] group-hover:scale-110 transition-transform duration-300"
                           />
                           <div className="absolute -inset-1 border-2 border-[#FF3366] rounded-xl opacity-0 group-hover:opacity-100 animate-ping"></div>
                         </div>
-                        
+
                         <div className="flex-1">
                           <span className="text-white font-semibold group-hover:text-[#FF3366] transition-colors">
                             @{linko.handle}
@@ -3646,10 +3657,12 @@ export default function Home() {
                               {linko.linkCount || 0} links
                             </span>
                             <span>•</span>
-                            <span>{new Date(linko.date).toLocaleDateString()}</span>
+                            <span>
+                              {new Date(linko.date).toLocaleDateString()}
+                            </span>
                           </div>
                         </div>
-                        
+
                         <span className="text-[#FF3366] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-2">
                           →
                         </span>
@@ -3657,14 +3670,16 @@ export default function Home() {
                     </div>
                   </Link>
                 ))}
-                
-                <Link 
-                  href="/dashboard" 
+
+                <Link
+                  href="/dashboard"
                   className="block text-center mt-8 group animate-bounce"
                 >
                   <span className="inline-flex items-center gap-2 text-[#33CCFF] hover:text-[#FF3366] transition-colors duration-300 text-lg font-semibold">
-                    See all your Linkos 
-                    <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
+                    See all your Linkos
+                    <span className="group-hover:translate-x-2 transition-transform duration-300">
+                      →
+                    </span>
                   </span>
                 </Link>
               </div>
@@ -3679,14 +3694,14 @@ export default function Home() {
                 "Your life isn't multiple tabs. Why should your link be?"
               </p>
             </div>
-            
+
             <p className="text-[#33CCFF] text-sm animate-bounce">
               ✨ Your bio deserves better than a mess.
             </p>
 
             <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-xl px-8 py-4 rounded-full border border-[#333333] hover:border-[#FF3366] transition-all duration-300 mt-4 hover:scale-105">
               <p className="text-[#CCCCCC] text-lg">
-                Your links, all in one place with 
+                Your links, all in one place with
               </p>
               <span className="text-[#FF3366] font-bold text-xl relative group">
                 Linko
@@ -3705,8 +3720,18 @@ export default function Home() {
               <span className="absolute inset-0 bg-gradient-to-r from-[#FF3366] to-[#FF9933] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
               <span className="relative z-10 flex items-center gap-2">
                 Claim your Linko now
-                <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                <svg
+                  className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300 animate-bounce"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  ></path>
                 </svg>
               </span>
             </button>
@@ -3717,28 +3742,59 @@ export default function Home() {
       {/* Add custom animations */}
       <style jsx>{`
         @keyframes slideDown {
-          from { transform: translateY(-30px); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
+          from {
+            transform: translateY(-30px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
         }
         @keyframes slideUp {
-          from { transform: translateY(30px); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
+          from {
+            transform: translateY(30px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
         }
         @keyframes slideIn {
-          from { transform: translateX(-30px); opacity: 0; }
-          to { transform: translateX(0); opacity: 1; }
+          from {
+            transform: translateX(-30px);
+            opacity: 0;
+          }
+          to {
+            transform: translateX(0);
+            opacity: 1;
+          }
         }
         @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
         }
         @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-10px); }
+          0%,
+          100% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
         }
         @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
         }
         .animate-slideDown {
           animation: slideDown 0.8s ease-out forwards;
