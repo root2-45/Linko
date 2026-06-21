@@ -99,5 +99,4 @@ Import/export bookmarks
 
 👩‍💻 Author
 Rutuja Shivaji Shingote
-📧 rutujashingote5@gmail.com
 🌐 GitHub
